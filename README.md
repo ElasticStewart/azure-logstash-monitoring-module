@@ -78,6 +78,6 @@ Step 8:
 
 
 
-Still working to get the other dashboards populated, so this is the best one for now.
+Still working to get the other dashboards populated, so this is the best one for now. You can also do things like create IAM policies and put in some fake roles for the deployment and that will show the requests creating the roles. Also you can do things like create SQL DB/servers to get some more dpeloyments populated iin.
 
 Thanks!
