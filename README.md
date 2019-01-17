@@ -52,6 +52,7 @@ Step 6:
 - Download the latest version of Logstash
     - Copy and Paste the "Basic Config" Into your Logstash.yml
         - found here: https://www.elastic.co/guide/en/logstash/current/azure-module.html#azure_best_practices
+    - Comment out var.input.azure_event_hubs.consumer_group as it is not needed at this point
     - Update var.elasticsearch.hosts to reflect your Elasticsearch endpoint
     - Update var.kibana.host to reflect your Kibana endpoint
     - Update your var.input.azure_event_hubs.storage_connection
@@ -65,6 +66,7 @@ Step 6:
         - Click into your SAS  you created, and copy connection string-primary key and paste it into your .yml
         
     - Update in the Cloud Settings section  of Logstash.yml your cloudid and cloud.auth information
+    - Remove or comment out all additoinal Event Hub Connection strings that is in there by default.
     
     
 Step 7:
