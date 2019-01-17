@@ -70,4 +70,14 @@ Step 6:
 Step 7:
 - Run bin/logstash --setup
     - Once running, create an Elastic Stack Azure  deployment in the Azure Marketplace
-    - Give it a good 10-15 min and you should see some activity start to populate in Kibana
+    - Give it a good 10-15 min and you should see some activity start to populate in Kibana (you may already see some activity logs populated in Kibana  from your previous set up as well)
+    
+    
+Step 8:
+- Go the [Azure Monitor] User Activity Dashboard as this populates the most interesting info.
+
+
+
+Still working to get the other dashboards populated, so this is the best one for now.
+
+Thanks!
